@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="/Prueba practica CSS.css">
+        <link rel="stylesheet" href="/Google.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Google</title>
     </head>
@@ -11,18 +11,21 @@
 
         <header>
             <nav>
-                <span>Gmail</span>
-                <span>Images</span>
+                <span class="menu-items">Gmail</span>
+                <span class="menu-items">Images</span>
                 <span><i id="dropdown-menu" class="material-icons">apps</i></span>
-                <span class="material-icons">face</span>
+                <span id="profile-pic" class="material-icons">face</span>
             </nav>
         </header>
 
         <section>
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo">
+            <form>
+                <input id="s-box" type="text" name="search-box"><br>
+                <input class="btn" type="submit" value="Google Search">
+                <input class="btn" type="submit" value="I'm Feeling Lucky">
+            </form>
         </section>
 
-
-        
-    </body>
+   </body>
 </html>
