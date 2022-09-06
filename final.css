@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: white;
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-logo {
+    height: 36px;
+    width: 36px;
+    padding-left: 26px;
+}
+
+#left-menu {
+    display: flex;
+    align-items: center;
+}
+
+#right-menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: right;
+}
+
+#buy-now {
+    margin-right: 25px;
+    height: 30px;
+    width: 130px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    border-radius: 4px;
+    border: none;
+}
+
+nav a:link {
+
+}
+
+nav a:active {
+    
+}
+
+nav a:hover {
+    
+}
+
+nav a:visited {
+    
+}
+
+#setion-1 {
+    height: 100px;
+    width: 100px;
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+}
